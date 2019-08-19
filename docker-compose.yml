@@ -22,7 +22,7 @@ services:
     volumes:
       - .:/my_app_dir
     ports:
-      - "2000:8000"
+      - "8000:8000"
     depends_on:
       - db
     working_dir: /my_app_dir
