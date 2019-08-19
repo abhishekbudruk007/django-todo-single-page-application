@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myapp.apps.MyappConfig',
+    'widget_tweaks',
+    'bootstrap_modal_forms',
 ]
 
 MIDDLEWARE = [
@@ -59,7 +61,6 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
                     os.path.join(BASE_DIR, 'templates'),
-                    os.path.join(BASE_DIR, 'static'),
                 ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -93,7 +94,7 @@ DATABASES = {
         'NAME': 'myproject',
         'USER': 'myprojectuser',
         'PASSWORD': 'Root@123mysqlmyproject',
-        'HOST': 'localhost',
+        'HOST': 'myproject_db_1',
         'PORT': '',
     }
 }
