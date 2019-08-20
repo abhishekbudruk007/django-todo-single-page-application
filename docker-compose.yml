@@ -12,7 +12,7 @@ services:
        MYSQL_ROOT_PASSWORD: 'Root@123mysql'
 
     volumes:
-      - "db_data:/var/lib/mysql/data"
+      - "db_data_1:/var/lib/mysql/data"
     networks:
       - todo_network
 
@@ -31,7 +31,7 @@ services:
     command: bash -lc "python manage.py makemigrations && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
 
 volumes:
-  db_data:
+  db_data_1:
     external: true
 
 

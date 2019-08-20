@@ -94,7 +94,7 @@ DATABASES = {
         'NAME': 'myproject',
         'USER': 'myprojectuser',
         'PASSWORD': 'Root@123mysqlmyproject',
-        'HOST': 'myproject_db_1',
+        'HOST': 'django-todo-single-page-application_db_1',
         'PORT': '',
     }
 }
