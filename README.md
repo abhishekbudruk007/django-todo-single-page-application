@@ -5,7 +5,7 @@
 ## Technologies Used: 
 1) Python 3.6
 2) Django 2.0
-3) Mysql 5.7
+3) Mysql 5.6
 4) Docker 19.03.1
 5) Docker-Compose 1.23.2
 6) HTML5
