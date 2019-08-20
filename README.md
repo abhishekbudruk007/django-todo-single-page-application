@@ -78,7 +78,7 @@ Django TODO Single Page App is used to Create Todo List , Edit and Marks Status 
      # sudo docker network ls 
   16) Inpsect Docker Network
      # sudo docker network inspect [network-name]
-     Example : sudo docker network todo_network
+     Example : sudo docker network inspect todo_network
   
      
      
