@@ -1,4 +1,4 @@
-Django==2.0
+Django==2.2.10
 django-bootstrap-modal-forms==1.4.2
 django-datatables-view==1.18.0
 django-widget-tweaks==1.4.5
